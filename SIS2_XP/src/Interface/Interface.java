@@ -19,7 +19,8 @@ public class Interface extends JFrame{
     public Interface(){  
         initComponents();
         setTitle("Letrero");
-        setBounds(500, 200, 900, 300);    
+        setBounds(500, 200, 900, 300);
+        setLocationRelativeTo(null);
     } 
     
     private void initComponents() {
